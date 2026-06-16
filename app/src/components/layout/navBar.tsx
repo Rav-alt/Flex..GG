@@ -73,12 +73,12 @@ export default function Navbar() {
       {/* CTA */}
       <div className="navbar-end flex items-center gap-2">
         <Link
-          href="/auth/signIn"
+          href="/src/auth/signIn"
           className="btn btn-ghost btn-sm hidden sm:inline-flex"
         >
           Log in
         </Link>
-        <Link href="/auth/signUp" className="btn btn-accent btn-sm">
+        <Link href="/src/auth/signUp" className="btn btn-accent btn-sm">
           Claim your tag
         </Link>
         {/* Mobile menu */}
